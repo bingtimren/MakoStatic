@@ -124,3 +124,8 @@ __Dir structure:__
     (3) if end_module.seek("CTX_MUST_HAVE") returns some non-empty list of strings, engine will check to make sure the module has
     all the members specified in the list.
 
+------
+## In the Future
+
+I saw this one should be able to easily adapt to generate anything, more than just static web. For example it can be
+used for code generation. All needs to be changed is mostly just the file extension handling. 
